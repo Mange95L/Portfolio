@@ -6,4 +6,22 @@
 
 module.exports = {
   /* Your site config here */
+
+  siteMetadata: {
+    title: 'Portfolio Site!',
+    author: 'Magnus Landén'
+  },
+
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
+    'gatsby-transformer-remark'
+  ]
+
 }
