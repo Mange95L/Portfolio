@@ -384,7 +384,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.45rem;
 }
 figure {
   margin-left: 0;
@@ -619,4 +619,17 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.badge {
+  display: inline-block;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  line-height: inherit;
+  font-size: 0.9375em;
+  font-weight: normal;
+  color: #778187;
+  background: #f2f2f3;
+  margin-right: 0.2rem;
+  margin-bottom: 0.4rem;
 }
