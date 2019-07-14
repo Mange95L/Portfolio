@@ -625,14 +625,17 @@ pre tt:after {
   display: inline-block;
   padding-left: 0.6em;
   padding-right: 0.6em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   line-height: inherit;
   font-size: 0.9375em;
   font-weight: normal;
   color: #778187;
-  background: #f2f2f3;
+  background: #f4f4f4;
   margin-right: 0.2rem;
   margin-bottom: 0.4rem;
 }
 .badge:hover {
-  background: #e3e3ec;
+  background: #e4e4e4;
+  cursor: default;
 }

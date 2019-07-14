@@ -20,10 +20,10 @@ const Header = () => {
             </h1>
             <nav>
                 <ul className={headerStyles.navList}>
-                    <li> <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link> </li>
+                    <li> <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Start</Link> </li>
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></li>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About</Link></li>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link></li>
+                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">Om</Link></li>
+                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Kontakt</Link></li>
                 </ul>
             </nav>
         </header>
