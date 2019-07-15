@@ -12,16 +12,18 @@ const Header = () => {
         }
     }
     `)
+    const signOne = '<'
+    const signTwo = ' />'
 
     return (
         <header className={headerStyles.header}>
             <h1>
-                <Link className={headerStyles.title} to="/">{data.site.siteMetadata.title}</Link>
+                <Link className={headerStyles.title} to="/"><strong className="markupSpecialColor">{signOne}</strong>{data.site.siteMetadata.title}<strong className="markupSpecialColor">{signTwo}</strong></Link>
             </h1>
             <nav>
                 <ul className={headerStyles.navList}>
                     <li> <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Start</Link> </li>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></li>
+                    {/* <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></li> */}
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">Om</Link></li>
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Kontakt</Link></li>
                 </ul>

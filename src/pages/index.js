@@ -9,7 +9,7 @@ const IndexPage = () => {
 
     return (
         <Layout>
-            <h1>Hej!</h1>
+            <h1>Hej &#128075;</h1>
             <h4>Mitt namn är Magnus, Jag är en driven full-stack utvecklare som bor i Göteborg.</h4>
 
 
@@ -23,8 +23,8 @@ const IndexPage = () => {
             <ol className={indexStyles.posts}>
                 <li className={indexStyles.post}>
                     <Link to={`/about`}>
-                        <h2>Mina skills</h2>
-                        <p>Läs mer ingående om mina skills</p>
+                        <h2>Min kompetens</h2>
+                        <p>Läs mer ingående om min kompetens inom Systemutveckling</p>
                     </Link>
                 </li>
 

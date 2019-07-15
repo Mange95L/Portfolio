@@ -6,8 +6,13 @@ import Layout from '../components/layout'
 const ContactPage = () => {
     return (
         <Layout>
-            <h1>Contact</h1>
-            <p>The best way to reach me is via my Linkedin <a href="https://www.linkedin.com" target="_blank">Here!</a></p>
+            <h1></h1>
+            <h4>Det enklaste sättet att nå mig är att via mina kontaktuppgifter nedan: </h4>
+            <p><strong>Tele: </strong>0725225334</p>
+            <p><strong>Mail: </strong>magnus.landen@hotmail.com</p>
+            <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com" target="_blank">Här</a></p>
+            <p><strong>Facebook: </strong><a href="https://www.facebook.com" target="_blank">Här</a></p>
+
 
         </Layout>
     )

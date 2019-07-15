@@ -6,8 +6,8 @@ import Layout from '../components/layout'
 const NotFound = () => {
     return (
         <Layout>
-            <h1>Page not found</h1>
-            <p><Link to="/">Head home</Link></p>
+            <h1>Nu blev det änna lite fel</h1>
+            <p><Link to="/">Gå hem</Link></p>
         </Layout>
     )
 }

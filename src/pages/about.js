@@ -7,7 +7,7 @@ const AboutPage = () => {
     return (
         <Layout>
 
-            <p>I Currently work Full Time on Hogia</p>
+            <p>Jag arbetar sedan Mars heltid som systemutvecklare på Hogia.</p>
 
             <h3>Tekniker: </h3>
 
