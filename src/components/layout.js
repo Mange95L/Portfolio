@@ -11,7 +11,9 @@ const Layout = (props) => {
         <div className={layoutStyles.container}>
             <div className={layoutStyles.content}>
                 <Header />
-                {props.children}
+                <div className='popUpAnimation'>
+                    {props.children}
+                </div>
             </div>
             <Footer />
         </div>

@@ -643,3 +643,24 @@ pre tt:after {
 .markupSpecialColor {
   color: #0073b1;
 }
+
+@keyframes fadeIn {
+  from {
+    transform: translatey(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.popUpAnimation {
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+.customLinkStyles {
+  color: #0073b1;
+  text-decoration: none;
+}

@@ -10,21 +10,19 @@ const IndexPage = () => {
     return (
         <Layout>
             <h1>Hej &#128075;</h1>
-            <h4>Mitt namn är Magnus, Jag är en driven full-stack utvecklare som bor i Göteborg.</h4>
+            <h4>Mitt namn är Magnus, Jag är 23 år, full-stack utvecklare som bor i Göteborg och arbetar i Stenungsund.</h4>
 
 
 
 
 
-            {/* <p><strong>Språk: </strong><span className="badge">C#</span> <span className="badge">PHP</span> <span className="badge">JavaScript</span> <span className="badge"> SQL</span> <span className="badge">HTML</span> <span className="badge"> CSS</span></p>
-            <p><strong>Ramverk: </strong>.NET, .NET CORE, React, Aurelia, Jquery, Sass & Less</p>
-            <p><strong>Arbetssätt: </strong>SCRUM, TDD, continuous development</p> */}
+
 
             <ol className={indexStyles.posts}>
                 <li className={indexStyles.post}>
                     <Link to={`/about`}>
-                        <h2>Min kompetens</h2>
-                        <p>Läs mer ingående om min kompetens inom Systemutveckling</p>
+                        <h2>Kompetens</h2>
+                        <p>Läs mer ingående om mina kunskaper inom Systemutveckling</p>
                     </Link>
                 </li>
 
