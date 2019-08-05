@@ -10,7 +10,7 @@ const IndexPage = () => {
     return (
         <Layout>
             <h1>Hej &#128075;</h1>
-            <h4>Mitt namn är Magnus, Jag är 23 år, full-stack utvecklare som bor i Göteborg och arbetar i Stenungsund.</h4>
+            <h4>Mitt namn är Magnus, Jag är 23 år, full-stack utvecklare och bor i Göteborg</h4>
 
 
 

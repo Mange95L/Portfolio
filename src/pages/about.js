@@ -7,7 +7,7 @@ const AboutPage = () => {
     return (
         <Layout>
 
-            <p>Jag arbetar sedan Mars heltid som systemutvecklare på Hogia.</p>
+            <p>Jag arbetar som systemutvecklare på Hogia i Stenungsund.</p>
 
             <h3>Tekniker: </h3>
 
@@ -38,8 +38,8 @@ const AboutPage = () => {
 
             <br /><br />
 
-            <p>Denna sida är en statisk sida genererad med hjälp av en "Static Site Generator" kallad Gatsby.
-                Det är i grund och botten ramverket React och således baserat på modern Javascript.</p>
+            {/* <p>Denna sida är en statisk sida genererad med hjälp av en "Static Site Generator" kallad Gatsby.
+                Det är i grund och botten ramverket React och således baserat på modern Javascript.</p> */}
         </Layout>
     )
 }
