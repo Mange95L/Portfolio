@@ -24,8 +24,14 @@
 }
 
 .active-nav-item {
-  color: #333333;
-  text-decoration: underline;
+  color: #0073b1;
 }
 nav {
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 0rem 0 2rem;;
+  }
 }
