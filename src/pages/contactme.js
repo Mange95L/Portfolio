@@ -43,16 +43,30 @@ class contactFormPage extends React.Component {
             <Layout>
                 <h1>Contact</h1>
 
-                {this.state.feedbackMsg && <p>{this.state.feedbackMsg} </p>}
-
+                
+<div className="aroundtheform">
         <form ref={this.domRef} name="Contact Form" method="POST" data-netlify="true" onSubmit={event => this.handleSubmit(event)}>
           <input ref="form-name" type="hidden" name="form-name" value="Contact Form" />
-          <input ref="email" type="email" name="email" />
+          <label for="email">Email</label><br></br>
+          <input ref="email" id="email" type="email" name="email" />
           <br></br>
-          <textarea ref="message" name="message" />
-          <br></br>
+          <label for="subject">Meddelande</label>
+          <textarea ref="message" id="subject" name="message" />
+          
           <input type="submit" value="submit" />
         </form>
+        </div>
+        {this.state.feedbackMsg && <p>{this.state.feedbackMsg} </p>}
+
+
+
+        {/* THE OTHER FORM */}
+
+
+
+
+
+
 
             </Layout>
         )
