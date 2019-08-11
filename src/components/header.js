@@ -25,9 +25,7 @@ const Header = () => {
                     <li> <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">START</Link> </li>
                     {/* <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link></li> */}
                     <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">OM</Link></li>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">KONTAKT</Link></li>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contactme">KONTAKTA MIG</Link></li>
-                </ul>
+                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contactme">KONTAKT</Link></li>                </ul>
             </nav>
         </header>
     )

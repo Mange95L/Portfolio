@@ -41,33 +41,40 @@ class contactFormPage extends React.Component {
     render() {
         return (
             <Layout>
-                <h1>Contact</h1>
 
                 
 <div className="aroundtheform">
         <form ref={this.domRef} name="Contact Form" method="POST" data-netlify="true" onSubmit={event => this.handleSubmit(event)}>
           <input ref="form-name" type="hidden" name="form-name" value="Contact Form" />
-          <label for="email">Email</label><br></br>
-          <input ref="email" id="email" type="email" name="email" />
-          <br></br>
-          <label for="subject">Meddelande</label>
-          <textarea ref="message" id="subject" name="message" />
-          
-          <input type="submit" value="submit" />
+            <div className="row">
+                <div className="col-25">
+                    <label htmlFor="email">Email</label>
+                </div>
+                <div className="col-75">
+                    <input ref="email" id="email" type="email" name="email" className="emailinput" />
+                    </div>
+                </div>
+            
+                <div className="row">
+                    <div className="col-25">
+                        <label htmlFor="subject">Meddelande</label>
+                    </div>
+                    <div className="col-75">
+                        <textarea ref="message" id="subject" name="message" className="txtrea" />
+                    </div>
+                </div>
+                <div className="row">
+          <input type="submit" value="Skicka" />
+          </div>
         </form>
-        </div>
         {this.state.feedbackMsg && <p>{this.state.feedbackMsg} </p>}
-
-
-
-        {/* THE OTHER FORM */}
-
-
-
-
-
-
-
+        </div>
+        <br></br>
+        <h1></h1>
+            <h4>Enklaste sättet att nå mig är att via formuläret ovan, eller mina kontaktuppgifter nedan: </h4>
+            <p><strong>Telefon: </strong>0725225334</p>
+            <p><strong>Mail: </strong>magnus.landen@hotmail.com</p>
+            <p><a className="customLinkStyles" href="https://www.linkedin.com" target="_blank"><strong>LinkedIn</strong></a>, <a className="customLinkStyles" href="https://www.facebook.com" target="_blank"><strong>Facebook</strong></a> </p>
             </Layout>
         )
     }
