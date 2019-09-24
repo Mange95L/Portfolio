@@ -27,13 +27,13 @@ class contactFormPage extends React.Component {
         axios(axiosOptions)
         .then(Response => {
             this.setState({
-                feedbackMsg: "Form submitted successfully!",
+                feedbackMsg: "Tack för ditt meddelande!",
             })
             this.domRef.current.reset()
         })
         .catch(err => 
             this.setState({
-                feedbackMsg: "Form could not be submitted.",
+                feedbackMsg: "Meddelandet kunde inte skickas.",
             })
         )
     }
@@ -51,7 +51,7 @@ class contactFormPage extends React.Component {
                     <label htmlFor="email">Email</label>
                 </div>
                 <div className="col-75">
-                    <input ref="email" id="email" type="email" name="email" className="emailinput" />
+                    <input ref="email" id="email" type="email" name="email" className="emailinput" required />
                     </div>
                 </div>
             
@@ -60,7 +60,7 @@ class contactFormPage extends React.Component {
                         <label htmlFor="subject">Meddelande</label>
                     </div>
                     <div className="col-75">
-                        <textarea ref="message" id="subject" name="message" className="txtrea" />
+                        <textarea ref="message" id="subject" name="message" className="txtrea" required />
                     </div>
                 </div>
                 <div className="row">
